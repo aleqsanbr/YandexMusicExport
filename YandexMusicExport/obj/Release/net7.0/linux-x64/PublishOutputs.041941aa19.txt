@@ -1,0 +1,2 @@
+C:\Users\eng-r\Desktop\CS211 файлы\YandexMusicExport\YandexMusicExport\bin\Release\net7.0\linux-x64\publish\YandexMusicExport.pdb
+C:\Users\eng-r\Desktop\CS211 файлы\YandexMusicExport\YandexMusicExport\bin\Release\net7.0\linux-x64\publish\YandexMusicExport

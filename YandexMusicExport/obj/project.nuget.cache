@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0SHbVdnIKeKPw1KifSahe+FJHt+5uChtokspdjsPTUga002aofAXOfw/9oYwzzm+/vRWVMVbW6389o9C8gLbIg==",
+  "dgSpecHash": "Ef1wDwfHYIC5cbCKU1JcBl/zInq/numM+Rp3NCS2ArSL+Ggks7Ai9OqAeAdUUR8jOlYLGLuHJR3sGMnMTY16wQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\eng-r\\Desktop\\CS211 файлы\\YandexMusicExport\\YandexMusicExport\\YandexMusicExport.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\eng-r\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.3\\microsoft.netcore.app.runtime.win-x86.7.0.3.nupkg.sha512",
+    "C:\\Users\\eng-r\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.3\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.3.nupkg.sha512",
+    "C:\\Users\\eng-r\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.3\\microsoft.aspnetcore.app.runtime.win-x86.7.0.3.nupkg.sha512",
+    "C:\\Users\\eng-r\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.3\\microsoft.netcore.app.crossgen2.win-x64.7.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
