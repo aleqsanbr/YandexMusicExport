@@ -1,8 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {},
-    "net7.0/win-x86": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
@@ -15,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eng-r\\Desktop\\CS211 файлы\\YandexMusicExport\\YandexMusicExport\\YandexMusicExport.csproj",
+      "projectUniqueName": "D:\\PROJECTS\\YandexMusicExport\\YandexMusicExport\\YandexMusicExport.csproj",
       "projectName": "YandexMusicExport",
-      "projectPath": "C:\\Users\\eng-r\\Desktop\\CS211 файлы\\YandexMusicExport\\YandexMusicExport\\YandexMusicExport.csproj",
+      "projectPath": "D:\\PROJECTS\\YandexMusicExport\\YandexMusicExport\\YandexMusicExport.csproj",
       "packagesPath": "C:\\Users\\eng-r\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eng-r\\Desktop\\CS211 файлы\\YandexMusicExport\\YandexMusicExport\\obj\\",
+      "outputPath": "D:\\PROJECTS\\YandexMusicExport\\YandexMusicExport\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,35 +61,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[7.0.3, 7.0.3]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-            "version": "[7.0.3, 7.0.3]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[7.0.3, 7.0.3]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[7.0.3, 7.0.3]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win-x86": {
-        "#import": []
       }
     }
   }
