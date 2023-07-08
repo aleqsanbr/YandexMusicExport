@@ -1,9 +1,12 @@
-﻿using System.Net;
+﻿using System.Diagnostics;
+using System.Net;
 using System.Text.Json;
 
-internal class Program
+namespace YandexMusicExport;
+
+internal static class Program
 {
-    private static void Main(string[] args)
+    private static void Main()
     {
         try
         {
@@ -60,11 +63,11 @@ internal class Program
             var response = JsonSerializer.Deserialize<PlaylistResponse>(responseRaw, options);
 
             // Извлечение названия плейлиста и списка треков из полученного ответа
-            var playlistTitle = response.Playlist.Title;
-            var tracks = response.Playlist.Tracks;
+            var playlistTitle = response?.Playlist.Title;
+            var tracks = response?.Playlist.Tracks;
 
             // Итерация по каждому треку в списке треков
-            foreach (var track in tracks)
+            foreach (var track in tracks!)
             {
                 var artistsNames = "";
 
@@ -87,13 +90,15 @@ internal class Program
             Console.ResetColor();
 
             Console.WriteLine($"Название плейлиста: {playlistTitle}\n" +
-                              $"Список треков распечатан ниже и сохранен рядом с файлом программы.");
+                              $"Список треков распечатан ниже и сохранен рядом с файлом программы (файл {playlistTitle}.txt).\n");
+            
             using (var fs = new StreamWriter($"{playlistTitle}.txt"))
             {
                 fs.Write(allFile);
             }
             Console.WriteLine(allFile);
             
+            Process.Start(new ProcessStartInfo($"{playlistTitle}.txt") { UseShellExecute = true });
             
         }
         catch (JsonException e)
