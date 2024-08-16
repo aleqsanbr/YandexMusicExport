@@ -14,5 +14,8 @@
 ## Телеграм-бот!
 Работает через IP Казахстана и позволяет экспортировать даже «удаленные» треки. Пробуйте: <a href="https://link.u-pov.ru/ymebot"><b>Yandex Music Export</b></a> :)
 <br><br>
+## Python-скрипт
+Весит меньше, работает быстрее, но у вас должен быть установлен Python. Скачивайте здесь (<a href="https://raw.githubusercontent.com/aleqsanbr/YandexMusicExport/master/yme_console.py" download>yme_console.py</a>) либо через список файлов.
+<br><br>
 ## Форк YandexMusixExportWPF
 Если вам нравится использовать графический интерфейс, воспользуйтесь <a href="https://github.com/TuTAH1/YandexMusicExportWpf">YandexMusicExport**WPF**</a> от <a href="https://github.com/TuTAH1">TuTAH1</a>.
