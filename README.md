@@ -12,8 +12,9 @@
 5. Предложения, критика и прочее принимаются тута: https://t.me/aleqsanbr. В описании ссылка, подпишитесь на канал :)
 <br><br>
 ## Телеграм-бот!
-Работает через IP Казахстана и позволяет экспортировать даже «удаленные» треки. Пробуйте: <a href="https://link.u-pov.ru/ymebot"><b>Yandex Music Export</b></a> :)
-<br><br>
+Работает через IP Казахстана и позволяет экспортировать даже «удаленные» треки. Пробуйте: <a href="https://link.u-pov.ru/ymebot"><b>Yandex Music Export</b></a> :)<br><br>
+![image](https://github.com/user-attachments/assets/0eef5ceb-ef71-40fc-add6-bc3b8563b183)
+<br>
 ## Python-скрипт
 Весит меньше, работает быстрее, но у вас должен быть установлен Python. Скачивайте здесь (<a href="https://raw.githubusercontent.com/aleqsanbr/YandexMusicExport/master/yme_console.py" download>yme_console.py</a>) либо через список файлов.
 <br><br>
