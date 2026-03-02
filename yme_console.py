@@ -47,9 +47,9 @@ def handle_message(uri_raw):
     try:
         uri_raw = uri_raw.strip()
 
-        iframe_match = re.search(r'src="https://music\.yandex\.\S+/iframe/playlist/([^/]+)/([^"]+)"', uri_raw)
-        new_format = re.match(r'https://music\.yandex\.\S+/playlists/', uri_raw)
-        old_format = re.match(r'https://music\.yandex\.\S+/users/[^/]+/playlists/', uri_raw)
+        iframe_match = re.search(r'src="https://music\.yandex\.[^/]+/iframe/playlist/([^/]+)/([^"]+)"', uri_raw)
+        new_format = re.match(r'https://music\.yandex\.[^/]+/playlists/', uri_raw)
+        old_format = re.match(r'https://music\.yandex\.[^/]+/users/[^/]+/playlists/', uri_raw)
 
         if iframe_match:
             owner = iframe_match.group(1)
