@@ -41,7 +41,7 @@ def export_playlist(owner, kinds):
         f.write(all_file)
 
     print(f"Плейлист сохранен в файл: {filename}")
-    print("Поддержите работу сервиса: https://u-pov.ru/donate. Спасибо за использование! 💜")
+    print("Поддержите работу сервиса: https://aleqsanbr.dev. Спасибо за использование! 💜")
 
 def handle_message(uri_raw):
     try:
