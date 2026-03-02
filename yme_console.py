@@ -1,4 +1,10 @@
-import requests
+import subprocess, sys
+try:
+    import requests
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
+    import requests
+
 import json
 import re
 import time
